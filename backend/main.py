@@ -279,7 +279,7 @@ def supervisor_agent():
     # Return the structured response
     formatted_response = {
         "Task": task,
-        "Generated Hypotheses": hypothesis_response.split("\n"),
+        "Generated Hypotheses": hypothesis_response,
         "Web Research": web_results,
         "Analysis": analysis_response.split("\n"),
         "Reasoning": reasoning_response.split("\n"),
