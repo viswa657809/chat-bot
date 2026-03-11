@@ -2,6 +2,5 @@ Flask
 flask-cors
 python-dotenv
 requests
-sqlite3
 openai
 gunicorn
